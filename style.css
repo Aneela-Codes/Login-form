@@ -1,0 +1,69 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family:sans-serif ;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("rose.jpg");
+}
+.box{
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    box-shadow: 10px 0 40px black;
+    padding: 30px 50px;
+}
+.box h1{
+    float: left;
+    border-bottom: 4px solid #8e44ad;
+    font-size: 40px;
+    margin-bottom: 50px;
+    padding: 15px 0;
+    text-transform: uppercase;
+    color: white;
+}
+input{
+    cursor: pointer;
+}
+#login:hover{
+   
+    background: blueviolet;
+    color: white;
+}
+.loginbox{
+    width: 100%;
+    padding: 8px 0;
+    margin: 8px 0;
+    overflow: hidden;
+   font-size: 20px;
+   border-bottom:1px solid #8e44ad;
+}
+.loginbox i{
+    float: left;
+    text-align: center;
+    width: 25px;
+    
+    
+}
+.loginbox input{
+    width: 100px;
+    float: left;
+    background: transparent;
+    border: none;
+    padding: 5px 10px;
+    font-size: 15px;
+    margin: 0 10px;
+    outline: none;
+}
+.box input[type="submit"]{
+    width: 100%;
+    background: transparent;
+    border:2px solid #8e44ad;
+    padding: 4px;
+    color: white;
+    font-size: 20px;
+    margin: 10px 0;
+    outline: none;
+}
